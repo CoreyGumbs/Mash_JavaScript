@@ -1,5 +1,10 @@
 //Written by Corey Gumbs
 //July 13, 2018
+//execute program in command line using node.
+//ie: >> node mash.js "input1" "input2" "input3" "input4" "input5"
+
+
+
 
 function mash(){
 	if((!process.argv[2]) && (!process.argv[3]) && (!process.argv[4])){
