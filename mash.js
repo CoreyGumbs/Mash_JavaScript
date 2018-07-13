@@ -1,3 +1,5 @@
+//Written by Corey Gumbs
+//July 13, 2018
 
 function mash(){
 	if((!process.argv[2]) && (!process.argv[3]) && (!process.argv[4])){
