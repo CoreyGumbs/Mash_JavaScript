@@ -4,8 +4,8 @@
 //ie: >> node mash.js "input1" "input2" "input3" "input4" "input5"
 
 function mash(){
-	if((!process.argv[2]) && (!process.argv[3]) && (!process.argv[4])){
-		return "Please enter a home, number of kids, and a car to drive";
+	if((!process.argv[2]) && (!process.argv[3]) && (!process.argv[4]) && (!process.argv[5]) && (!process.argv[6])){
+		return "Please enter a home, relationship status, number of kids, a car to drive, and salary amount";
 	}else if(!process.argv[2]){
 		return "** Please Enter A Place To Live **";
 	}else if(!process.argv[3]){
