@@ -3,9 +3,6 @@
 //execute program in command line using node.
 //ie: >> node mash.js "input1" "input2" "input3" "input4" "input5"
 
-
-
-
 function mash(){
 	if((!process.argv[2]) && (!process.argv[3]) && (!process.argv[4])){
 		return "Please enter a home, number of kids, and a car to drive";
@@ -50,8 +47,8 @@ function getCar(){
 }
 
 function getRelationship(){
-	const myRealation = process.argv[5];
-	const relationGoals = ['single', 'married', 'divorced', 'complicated', 'an other', myRealation];
+	const myRelation = process.argv[5];
+	const relationGoals = ['single', 'married', 'divorced', 'complicated', 'an other', myRelation];
 
 	let myGoal = relationGoals[randomizer(relationGoals.length)];
 	return myGoal;
