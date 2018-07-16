@@ -17,7 +17,6 @@ function mash(){
 	}else if(!process.argv[6]){
 			return "** Please enter a salary **";
 	}else{
-
 		return "You will live in a " + getHome() + ", you are in a " + getRelationship() + " relationship and will have " + getChildrenCount() + " kids, " + "and you will drive a "+ getCar() + ". " + getSalary();
 	}
 }
